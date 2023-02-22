@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: linear-gradient(to bottom right , #733737, #4e212100)
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.home {
+    max-width: 400px;
+    padding: 50px 30px;
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+}
+
+form {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 50px 30px;
+    background-image: linear-gradient(to bottom , #59895e, #66d17c00);
+    box-shadow: 0px 6px rgb(0, 0, 0.2);
+    border-radius: 16px;
+}
+
+form h1 {
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.err-mgs {
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-bottom:  15px;
+    color: red;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+form .form-group {
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    color: aliceblue;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+form input {
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+form input:not([type= "submit" ]) {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(0, 0 , 0 , 0,2);
+    box-shadow: 0px 0px 0px rgb(30, 41, 34);
+    transform: 0.4s;
+    color: #222;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+form input:not([type= "submit"])::placeholder {
+    color: #ccc ;   
+}
+
+form input:not([type= "submit"]):focus , form input:not([type= "submit"]):valid {
+    background-color: white ;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+form input[type = "submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #2f4960;
+    box-shadow: 0px 0px 0px rgb(30, 41, 34);
+    transform: 0.4s;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700px;
+}
+
+
+
+
+
+
